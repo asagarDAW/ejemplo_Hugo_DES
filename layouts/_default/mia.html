@@ -1,0 +1,33 @@
+{{- partial "header.html" . }}
+
+
+Aquí aparece el contenido del .md
+**
+{{ .Content}}
+**
+Aquí termina el contenido del .md
+
+El título del archivo .md es:
+{{ .Title}}
+
+{{ $variable:= "Este es el valor de la variable"}}
+<h2>El valor de la variable es:{{ $variable}}</h2>
+<h1>Esto es un ejemplo de plantilla</h1>
+<h2>aquí el título del fichero md en el frontmatter</h2>
+<hr>
+<span style="color:red">{{.Title}}</span>
+<hr>
+
+<h3>Declaro y luego visualizo una variable</h3>
+{{ $nombre := "Manuel" }}
+<h2>Valor de variable $mi_nombre</h2>
+<hr>
+<span style="color:red">{{ $nombre}}</span>
+<hr>
+
+footer class="footline">
+          {{- with .Params.LastModifierDisplayName }}
+            <i class='fas fa-user'></i> <a href="mailto:{{ $.Params.LastModifierEmail }}">{{ . }}</a> {{ with $.Date }} <i class='fas fa-calendar'></i> {{ .Format "02/01/2006" }}{{ end }}
+          {{- end }}
+          </footer>
+{{- partial "footer.html" . }}

@@ -1,0 +1,133 @@
+#baseURL = 'http://example.org/'
+baseURL = 'https://asagarDAW.gitghub.io.com/ejemplo_Hugo_DES'
+languageCode = 'en-us'
+title = "Título configuración"
+theme = ['hugo-theme-relearn']
+defaultContentLanguage = "es"
+
+# Parámetros
+[params]
+themeVariant = "dws"
+#deshabilitar botón de Home
+disableLandingPageButton = false
+
+#Parámetros para que trabaje mermaid
+[params.mermaid]
+enable = true
+
+#User interface configuration
+[params.ui]
+
+
+
+## Lenguajes 
+
+[Languages]
+    [Languages.es]
+        title = "Ejemplo para el uso de idiomas"
+        weight = 1
+        languageName = "Español"
+        landingPageURL = "http://cpilosenlaces.com"
+        landingPageName = "<i class='fas fa-university'></i> CPI Los Enlaces"
+        ContentDir="content/es"
+    [Languages.en]
+        title = "Example use language"
+        weight = 2
+        languageName = "English"
+        landingPageURL = "http://cpilosenlaces.com"
+        landingPageName = "<i class='fas fa-university'></i> CPI Los Enlaces"
+        ContentDir="content/en"
+   [Languages.fr]
+        title = "Exemple d'utilisation des langues"
+        weight = 3
+        languageName = "Français"
+        landingPageURL = "http://cpilosenlaces.com"
+        landingPageName = "<i class='fas fa-university'></i> CPI Los Enlaces"
+        ContentDir="content/fr"
+
+
+
+# Menu shortcuts
+#castellano
+[[Languages.es.menu.shortcuts]]
+name = "<i class='fab fa-fw fa-github'></i> GitHub repositorio"
+identifier = "ds"
+url = "https://github.com/McShelby/hugo-theme-relearn"
+weight = 10
+
+[[Languages.es.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-camera'></i> Showcases"
+url = "/showcase/"
+weight = 11
+
+[[Languages.es.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-bookmark'></i> Hugo Documentation"
+identifier = "hugodoc"
+url = "https://gohugo.io/"
+weight = 20
+
+[[Languages.es.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-bullhorn'></i> Credits"
+url = "/credits/"
+weight = 30
+
+[[Languages.es.menu.shortcuts]]
+name = "<i class='far fa-address-book'></i> Address Book"
+url = "/tags/"
+weight = 40
+
+#inglés
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fab fa-fw fa-github'></i> GitHub repository"
+identifier = "ds"
+url = "https://github.com/McShelby/hugo-theme-relearn"
+weight = 10
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-camera'></i> Showcases"
+url = "/showcase/"
+weight = 11
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-bookmark'></i> Hugo Documentation"
+identifier = "hugodoc"
+url = "https://gohugo.io/"
+weight = 20
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-bullhorn'></i> Credits"
+url = "/credits/"
+weight = 30
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='far fa-address-book'></i> Address Book"
+url = "/tags/"
+weight = 40
+
+#francés
+[[Languages.fr.menu.shortcuts]]
+name = "<i class='fab fa-fw fa-github'></i> GitHub repository"
+identifier = "ds"
+url = "https://github.com/McShelby/hugo-theme-relearn"
+weight = 10
+
+[[Languages.fr.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-camera'></i> Showcases"
+url = "/showcase/"
+weight = 11
+
+[[Languages.fr.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-bookmark'></i> Hugo Documentation"
+identifier = "hugodoc"
+url = "https://gohugo.io/"
+weight = 20
+
+[[Languages.fr.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-bullhorn'></i> Credits"
+url = "/credits/"
+weight = 30
+
+[[Languages.fr.menu.shortcuts]]
+name = "<i class='far fa-address-book'></i> Address Book"
+url = "/tags/"
+weight = 40
