@@ -1,5 +1,5 @@
 #baseURL = 'http://example.org/'
-baseURL = 'https://asagarDAW.gitghub.io.com/ejemplo_Hugo_DES'
+baseURL = 'https://asagardaw.github.io/ejemplo_Hugo_DES'
 languageCode = 'en-us'
 title = "Título configuración"
 theme = ['hugo-theme-relearn']
